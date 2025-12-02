@@ -1,0 +1,10 @@
+In "Hypothesis analysis of competitor strategy.IPYNB" file you can take a look at analytics process which leads to the following conclusion:
+
+The orders are placed at a certain deviation from the moving average.
+Based on the analysis above, the closest version of the strategy is one that uses the crossover between the current price and the moving average, but with a deviation threshold.
+In other words, the strategy trades moments when the price deviates significantly from the average and then returns back.
+It also resembles a kind of mean-reversion approach.
+
+Also in this file you may find some other guesses which appeared to be not completely precise along with some interactive graphs plotted using plotly libruary in python.
+
+As a result the Moving Averages crossing strategy with threshold was implemented to the given data retrieving the metrics which are close enough to conclude that the strategy has been re-implemented successfully.
